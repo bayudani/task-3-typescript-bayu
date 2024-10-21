@@ -27,13 +27,19 @@ dengan password.
 
 
 ## Eksekusi Aplikasi
-- [EncryptFile] 
+
+### Encrypt File
+- 
    Jalankan perintah
    ```sh
    ts-node index.ts encrypt ./test.txt myPassword
 
 untuk Encrypt file test.txt
 output:
+
+
+
+
 ![Alt text](ss1.png)
 
 
@@ -60,12 +66,16 @@ isi log:
 kemudian akan menghasilkan satu file dengan nama test_encrypt.txt yang berisi hasil encrypt:
 ![Alt text](ss5.png)
 
-- [DecryptFile] 
+
+### Decrypt File
+- 
    Jalankan perintah
    ```sh
    ts-node index.ts decrypt ./test_encrypted.txt myPassword
 
-- [EncryptFilePasswordSalah] 
+
+### Encrypt File Dengan Password Yang Tidak Valid
+-  
    Jalankan perintah
    ```sh
    ts-node index.ts decrypt ./test_encrypted.txt wrongPassword
