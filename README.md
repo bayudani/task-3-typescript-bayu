@@ -35,11 +35,27 @@ dengan password.
 untuk Encrypt file test.txt
 output:
 ![Alt text](ss1.png)
+
+
+
 kemudian proses yang terjadi akan masuk ke file log dengan format:[(jam)_(menit)_(detik)_(bulan)_(tanggal)_(tahun).log]
+
+
 ![Alt text](ss2.png)
+
+
+
 isi log:
+
+
 ![Alt text](ss3.png)
+
+
+
 ![Alt text](ss4.png)
+
+
+
 
 kemudian akan menghasilkan satu file dengan nama test_encrypt.txt yang berisi hasil encrypt:
 ![Alt text](ss5.png)
@@ -55,12 +71,16 @@ kemudian akan menghasilkan satu file dengan nama test_encrypt.txt yang berisi ha
    ts-node index.ts decrypt ./test_encrypted.txt wrongPassword
 
 maka akan menghasilkan output:
+
 ![Alt text](ss6.png)
+
+
+
 dan menghasilkan log dengan pesan
 ![Alt text](ss7.png)
 
-## Done
 
+## Done
 
 
 
